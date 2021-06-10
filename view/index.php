@@ -1,4 +1,4 @@
-<?php include ("../controller/main.php") ?>
+<?php include ("controller/main.php") ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,19 +8,37 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <meta name="title" content="ALL-in Passion Xplorer & ALL-in Junior Xplorer">
+    <meta name="description" content="Lorem"> -->
+
+    <!-- Open Graph / Facebook -->
+    <!-- <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="ALL-in Passion Xplorer & ALL-in Junior Xplorer">
+    <meta property="og:description" content="Lorem">
+    <meta property="og:image" content="<?=$base_url;?>assets/img/webp/LP_PX_ASET-09.webp"> -->
+
+    <!-- Twitter -->
+    <!-- <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="ALL-in Passion Xplorer & ALL-in Junior Xplorer">
+    <meta property="twitter:description" content="Lorem">
+	<meta property="twitter:image" content="<?=$base_url;?>assets/img/webp/LP_PX_ASET-09.webp"> -->
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?php echo $base_url; ?>assets/css/bootstrap.min.css">
     <style type="text/css">
     #JX {
         background-image: url('<?=$base_url;?>assets/img/webp/LP_JX_BG-04.webp');
-        background-size: cover;
+        background-size: 100%;
         background-repeat: no-repeat;
         padding: 10% 0;
     }
 
     #PX {
-        background-image: url('<?=$base_url;?>assets/img/webp/LP_PX_BG-03.webp');
-        background-size: cover;
+        background-image: url('<?=$base_url;?>assets/img/webp/PX-BG.webp');
+        background-size: 100%;
         background-repeat: no-repeat;
         background-position: center-bottom;
         padding: 10% 0;
@@ -174,7 +192,7 @@
             </div>
             <div class="row text-center mt-10">
                 <div class="col-xl">
-                    <h3 class="px-title">Choose beetwen three important <br> roles and work to solve real <br>
+                    <h3 class="jx-title">Choose between three important <br> roles and work to solve real <br>
                         corporate issues!</h3>
                 </div>
             </div>
