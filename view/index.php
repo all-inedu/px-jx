@@ -30,6 +30,18 @@
     <link rel="icon" href="<?=$base_url;?>assets/img/icon.ico" type="image/ico" sizes="16x16">
 
     <link rel="stylesheet" href="<?php echo $base_url; ?>assets/css/bootstrap.min.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GLGS4THNEK"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-GLGS4THNEK');
+    </script>
     <style type="text/css">
     #JX {
         background-image: url('<?=$base_url;?>assets/img/webp/LP_JX_BG-04.webp');
