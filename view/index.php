@@ -33,14 +33,14 @@
     <style type="text/css">
     #JX {
         background-image: url('<?=$base_url;?>assets/img/webp/LP_JX_BG-04.webp');
-        background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
         padding: 10% 0;
     }
 
     #PX {
         background-image: url('<?=$base_url;?>assets/img/webp/PX-BG.webp');
-        background-size: 100%;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center-bottom;
         padding: 10% 0;
