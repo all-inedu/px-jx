@@ -177,9 +177,16 @@
                 </div>
                 <div class="col-7 mt-3">
                     <div class="row">
+                        <div class="col-xl">
+                            <div class="jx-col-bold">
+                                <h3 class="f-2">24<sup>th</sup> JUNE - 03<sup>rd</sup> JULY 2021</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
                         <div class="col-xl" style="padding: .7em;color: #1a2250">
-                            <h4 class="f-2">Students Grade 9-12</h4>
-                            <h4 class="f-2">University Students (sem 1-2)</h4>
+                            <h4 class="f-1">Students Grade 9-12 <br>
+                                University Students (sem 1-2)</h4>
                         </div>
                     </div>
                 </div>
