@@ -12,14 +12,14 @@
     <link rel="stylesheet" href="<?php echo $base_url; ?>assets/css/bootstrap.min.css">
     <style type="text/css">
     #JX {
-        background-image: url('../assets/img/webp/LP_JX_BG-04.webp');
+        background-image: url('<?=$base_url;?>assets/img/webp/LP_JX_BG-04.webp');
         background-size: cover;
         background-repeat: no-repeat;
         padding: 10% 0;
     }
 
     #PX {
-        background-image: url('../assets/img/webp/LP_PX_BG-03.webp');
+        background-image: url('<?=$base_url;?>assets/img/webp/LP_PX_BG-03.webp');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center-bottom;
@@ -105,7 +105,8 @@
             </div>
             <div class="row align-items-center text-center mt-10">
                 <div class="col-5">
-                    <img src="../assets/img/webp/LP_JX_ASET-07.webp" alt="ALL-in Junior Xplorer" width="80%">
+                    <img src="<?=$base_url;?>assets/img/webp/LP_JX_ASET-07.webp" alt="ALL-in Junior Xplorer"
+                        width="80%">
                 </div>
                 <div class="col-7">
                     <div class="row">
@@ -124,8 +125,8 @@
             </div>
             <div class="row text-center mt-4">
                 <div class="col-xl">
-                    <img src="../assets/img/webp/LP_JX_ASET-06.webp" alt="ALL-in Junior Xplorer Stage One Aspire"
-                        width="70%">
+                    <img src="<?=$base_url;?>assets/img/webp/LP_JX_ASET-06.webp"
+                        alt="ALL-in Junior Xplorer Stage One Aspire" width="70%">
                 </div>
             </div>
             <div class="row text-center mt-10">
@@ -153,7 +154,8 @@
             </div>
             <div class="row align-items-center text-center mt-10">
                 <div class="col-5">
-                    <img src="../assets/img/webp/LP_PX_ASET-08.webp" alt="ALL-in Passion Xplorer" width="80%">
+                    <img src="<?=$base_url;?>assets/img/webp/LP_PX_ASET-08.webp" alt="ALL-in Passion Xplorer"
+                        width="80%">
                 </div>
                 <div class="col-7 mt-3">
                     <div class="row">
@@ -166,7 +168,8 @@
             </div>
             <div class="row text-center mt-4">
                 <div class="col-xl">
-                    <img src="../assets/img/webp/LP_PX_ASET-09.webp" alt="ALL-in Passion Xplorer" width="80%">
+                    <img src="<?=$base_url;?>assets/img/webp/LP_PX_ASET-09.webp" alt="ALL-in Passion Xplorer"
+                        width="80%">
                 </div>
             </div>
             <div class="row text-center mt-10">
