@@ -9,13 +9,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ALL-in Junior Xplorer | ALL-in Passion Xplorer</title>
-    <link rel="icon" href="<?=$base_url();?>assets/img/icon.jpeg" type="image/x-icon">
     <meta name="title" content="ALL-in Junior Xplorer | ALL-in Passion Xplorer">
     <!-- <meta name="description" content="Lorem"> -->
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://pxjx.all-inedu.com">
+    <meta property="og:url" content="https://metatags.io/">
     <meta property="og:title" content="ALL-in Junior Xplorer | ALL-in Passion Xplorer">
     <!-- <meta property="og:description" content="Lorem"> -->
     <meta property="og:image" content="<?=$base_url;?>assets/img/webp/LP_PX_ASET-09.webp">
@@ -28,6 +27,8 @@
 	<meta property="twitter:image" content="<?=$base_url;?>assets/img/webp/LP_PX_ASET-09.webp"> -->
 
     <!-- Bootstrap CSS -->
+    <link rel="icon" href="<?=$base_url;?>assets/img/icon.ico" type="image/ico" sizes="16x16">
+
     <link rel="stylesheet" href="<?php echo $base_url; ?>assets/css/bootstrap.min.css">
     <style type="text/css">
     #JX {
