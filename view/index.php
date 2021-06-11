@@ -44,7 +44,7 @@
     </script>
     <style type="text/css">
     #JX {
-        background-image: url('<?=$base_url;?>assets/img/webp/LP_JX_BG-04.webp');
+        background-image: url('<?=$base_url;?>assets/img/webp/JX-BG.webp');
         background-size: cover;
         background-repeat: no-repeat;
         padding: 10% 0;
@@ -77,10 +77,8 @@
     }
 
     h3.px-title {
-        color: white;
         font-size: 3.5vw;
         font-weight: 800;
-        text-shadow: 1px 1px #aaaaaa;
     }
 
     .jx-col-bold {
@@ -121,6 +119,12 @@
 
         .btn-pxjx {
             font-size: 3.5vw;
+        }
+
+        h3.px-title {
+            color: white;
+            font-size: 3.5vw;
+            font-weight: 800;
         }
     }
     </style>
@@ -169,7 +173,8 @@
             </div>
             <div class="row text-center mt-10">
                 <div class="col-xl">
-                    <a href="http://bit.ly/juniorxplorer-aspire-rsvp" class="btn btn-danger btn-pxjx">REGISTER
+                    <a target="_blank" href="http://bit.ly/juniorxplorer-aspire-rsvp"
+                        class="btn btn-danger btn-pxjx">REGISTER
                         NOW</a>
                 </div>
             </div>
@@ -213,13 +218,14 @@
             </div>
             <div class="row text-center mt-10">
                 <div class="col-xl">
-                    <h3 class="jx-title">Choose between three important <br> roles and work to solve real <br>
+                    <h3 class="px-title">Choose between three important <br> roles and work to solve real <br>
                         corporate issues!</h3>
                 </div>
             </div>
             <div class="row text-center mt-10">
                 <div class="col-xl">
-                    <a href="http://bit.ly/passionxplorer-wep-rsvp" class="btn btn-danger btn-pxjx">REGISTER
+                    <a target="_blank" href="http://bit.ly/passionxplorer-wep-rsvp"
+                        class="btn btn-danger btn-pxjx">REGISTER
                         NOW</a>
                 </div>
             </div>
